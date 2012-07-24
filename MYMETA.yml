@@ -5,9 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 1.04, CPAN::Meta::Converter version 2.112600'
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112600'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,9 +15,8 @@ meta-spec:
 name: App-digestarchive
 no_index:
   directory:
-    - inc
     - t
-    - xt
+    - inc
 requires:
   Archive::Tar: 1.78
   Class::Accessor: 0.34
@@ -26,7 +25,4 @@ requires:
   Digest::MD5: 0
   Digest::SHA1: 0
   IO::Uncompress::Bunzip2: 0
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/holly/perl-App-digestarchive.git
-version: 0.04
+version: 0.042

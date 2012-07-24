@@ -23,7 +23,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.36"
+            "ExtUtils::MakeMaker" : "6.36",
+            "Test::More" : 0
          }
       },
       "configure" : {
@@ -52,5 +53,5 @@
          "url" : "git://github.com/holly/perl-App-digestarchive.git"
       }
    },
-   "version" : "0.031"
+   "version" : "0.04"
 }

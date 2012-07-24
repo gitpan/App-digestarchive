@@ -11,12 +11,13 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Repository.pm
 inc/Module/Install/Scripts.pm
+inc/Module/Install/TestTarget.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 inc/Test/More.pm
 lib/App/digestarchive.pm
 Makefile.PL
-MANIFEST			This list of files
+MANIFEST
 META.yml
 MYMETA.json
 MYMETA.yml
@@ -28,8 +29,11 @@ t/02_next.t
 t/03_all.t
 t/04_digest.t
 t/05_filter_cb.t
-t/test-archive.tar
-t/test-archive.tar.bz2
+t/scripts/finalize.pl
+t/scripts/prepare.pl
+t/test-archive/dir/hello-in-dir.txt
+t/test-archive/hello-symlink.txt
+t/test-archive/hello.txt
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t

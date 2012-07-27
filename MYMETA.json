@@ -23,13 +23,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.36",
+            "ExtUtils::MakeMaker" : "6.59",
             "Test::More" : 0
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.36"
+            "ExtUtils::MakeMaker" : "6.59"
          }
       },
       "runtime" : {
@@ -40,7 +40,8 @@
             "Digest" : 0,
             "Digest::MD5" : 0,
             "Digest::SHA1" : 0,
-            "IO::Uncompress::Bunzip2" : 0
+            "IO::Uncompress::Bunzip2" : 0,
+            "perl" : "5.008"
          }
       }
    },
@@ -53,5 +54,5 @@
          "url" : "git://github.com/holly/perl-App-digestarchive.git"
       }
    },
-   "version" : "0.042"
+   "version" : "0.043"
 }

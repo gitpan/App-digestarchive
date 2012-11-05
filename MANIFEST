@@ -16,7 +16,7 @@ inc/Module/Install/WriteAll.pm
 inc/Test/More.pm
 lib/App/digestarchive.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 MYMETA.json
 MYMETA.yml
